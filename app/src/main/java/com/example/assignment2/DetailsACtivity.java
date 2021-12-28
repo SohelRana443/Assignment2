@@ -37,8 +37,8 @@ public class DetailsACtivity extends AppCompatActivity {
         tv3=(TextView) findViewById(R.id.over_view);
 
 
-        img1.setImageResource(getIntent().getIntExtra("BackdropPath",defaultValue:0))
-        img2.setImageResource(getIntent().getIntExtra("PosterPath",defaultValue:0));
+        img1.setImageResource(getIntent().getIntExtra("BackdropPath",0));
+        img2.setImageResource(getIntent().getIntExtra("PosterPath",0));
         tv1.setText(getIntent().getStringExtra("OriginalTitle"));
         tv1.setText(getIntent().getStringExtra("VoteCount"));
         tv1.setText(getIntent().getStringExtra("Overview"));
