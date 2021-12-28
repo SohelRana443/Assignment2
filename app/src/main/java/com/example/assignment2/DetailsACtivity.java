@@ -40,8 +40,8 @@ public class DetailsACtivity extends AppCompatActivity {
         img1.setImageResource(getIntent().getIntExtra("BackdropPath",0));
         img2.setImageResource(getIntent().getIntExtra("PosterPath",0));
         tv1.setText(getIntent().getStringExtra("OriginalTitle"));
-        tv1.setText(getIntent().getStringExtra("VoteCount"));
-        tv1.setText(getIntent().getStringExtra("Overview"));
+        tv2.setText(getIntent().getStringExtra("VoteCount"));
+        tv3.setText(getIntent().getStringExtra("Overview"));
 
         }
 
